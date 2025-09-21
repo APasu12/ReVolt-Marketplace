@@ -1,4 +1,4 @@
-# Revolt Marketplace - Battery Trading Platform
+# ReVolt-Marketplace - Battery Trading Platform
 
 A comprehensive React-based marketplace application for trading and managing battery assets with advanced analytics and user management features.
 
@@ -55,8 +55,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd Revolt-Marketplace
+git clone https://github.com/APasu12/ReVolt-Marketplace.git
+cd ReVolt-Marketplace
 ```
 
 2. Install dependencies:
