@@ -1,0 +1,46 @@
+[
+  {
+    "id": "BP-001",
+    "manufacturer": "EnergyCell Technologies",
+    "model": "EC-75X",
+    "chemistry": "LiFePO4",
+    "originalCapacity": 75,
+    "currentCapacity": 68.2,
+    "manufactureDate": "2023-01-15",
+    "cycleCount": 387,
+    "historyEvents": [
+      {
+        "date": "2023-01-15",
+        "event": "Manufactured",
+        "location": "Shanghai, China"
+      },
+      {
+        "date": "2023-02-01",
+        "event": "Installed",
+        "location": "Berlin, Germany"
+      }
+    ]
+  },
+  {
+    "id": "BP-002",
+    "manufacturer": "PowerCore Systems",
+    "model": "PC-50Z",
+    "chemistry": "NMC",
+    "originalCapacity": 50,
+    "currentCapacity": 45,
+    "manufactureDate": "2022-06-10",
+    "cycleCount": 520,
+    "historyEvents": [
+      {
+        "date": "2022-06-10",
+        "event": "Manufactured",
+        "location": "Tokyo, Japan"
+      },
+      {
+        "date": "2022-07-15",
+        "event": "Installed",
+        "location": "New York, USA"
+      }
+    ]
+  }
+]
