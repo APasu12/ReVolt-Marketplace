@@ -94,7 +94,7 @@ export default function ConversationPage({ // Renamed component from Conversatio
             messagesContainerRef.current.scrollTop = oldScrollTop + (newScrollHeight - oldScrollHeight);
           });
       } else if (!loadMore) {
-        setInitialLoadComplete(true); // Mark initial load as complete
+        setInitialLoadComplete(true);
         // scrollToBottom will be called by the useEffect for messages change
       }
 
