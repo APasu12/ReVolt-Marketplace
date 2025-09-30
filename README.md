@@ -78,15 +78,6 @@ npm start
 - `npm test` - Launches the test runner
 - `npm run eject` - Ejects from Create React App (one-way operation)
 
-## 🔧 Configuration
-
-The application uses environment variables for configuration. Create a `.env` file in the root directory with the following variables:
-
-```
-REACT_APP_API_URL=your_api_url_here
-REACT_APP_APP_NAME=VoltaLog
-```
-
 ## 📊 Key Components
 
 - **MainAppLayout**: Main application layout with navigation
@@ -106,7 +97,3 @@ REACT_APP_APP_NAME=VoltaLog
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions, please open an issue in the GitHub repository.
