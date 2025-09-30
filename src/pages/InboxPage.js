@@ -1,4 +1,3 @@
-// Updated: src/InboxPage.js
 import React, { useState, useEffect, useCallback, useContext } from 'react';
 import axios from 'axios';
 import AuthContext from './context/AuthContext';
@@ -79,7 +78,7 @@ export default function InboxPage({ theme, showAppNotification, onSelectConversa
   return (
     <div className={`${cardBgClass} rounded-lg shadow`}>
       <div className={`p-4 sm:p-6 border-b ${borderClass} flex flex-col sm:flex-row justify-between items-center gap-3`}>
-        {/* ... header same as before ... */}
+        {/* header same as before */}
         <div className="flex items-center space-x-3">
             <MessageSquare size={28} className={textPrimaryClass} />
             <h1 className={`text-2xl font-bold ${textPrimaryClass}`}>Inbox</h1>
@@ -99,7 +98,7 @@ export default function InboxPage({ theme, showAppNotification, onSelectConversa
       </div>
 
       {filteredConversations.length === 0 ? (
-        // ... no conversations message same as before ...
+        // no conversations message
         <div className="p-10 text-center">
           <InboxIcon size={48} className={`mx-auto mb-4 ${textMutedClass}`} />
           <h3 className={`text-lg font-semibold ${textPrimaryClass} mb-2`}>
