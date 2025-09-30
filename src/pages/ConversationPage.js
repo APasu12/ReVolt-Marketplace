@@ -1,4 +1,3 @@
-// Updated: src/ConversationPage.js
 import React, { useState, useEffect, useCallback, useContext, useRef } from 'react';
 import axios from 'axios';
 import AuthContext from './context/AuthContext';
